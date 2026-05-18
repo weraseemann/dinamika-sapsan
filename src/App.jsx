@@ -8,7 +8,7 @@ export default function App() {
   return (
     <BrowserRouter basename="/dinamika-sapsan">
       <Routes>
-        <Route path="/dinamika-sapsan/" element={<Home />} />
+        <Route path="/dinamika-sapsan/" elment={<Home />} />
         <Route path="/datenschutz" element={<Datenschutz />} />
         <Route path="/impressum" element={<Impressum />} />
 
