@@ -12,7 +12,7 @@ export default function App() {
         <Route path="/datenschutz" element={<Datenschutz />} />
         <Route path="/impressum" element={<Impressum />} />
 
-        <Route path="*" element={<Navigate to="/" replace />} />
+        <Route path="*" element={<Navigate to="/dinamika-sapsan/" replace />} />
       </Routes>
     </BrowserRouter>
   );
