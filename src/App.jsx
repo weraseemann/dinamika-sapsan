@@ -6,9 +6,9 @@ import Impressum from "./pages/Impressum";
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/dinamika-sapsan">
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/dinamika-sapsan/" element={<Home />} />
         <Route path="/datenschutz" element={<Datenschutz />} />
         <Route path="/impressum" element={<Impressum />} />
 
