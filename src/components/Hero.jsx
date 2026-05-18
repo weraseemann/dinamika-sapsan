@@ -54,7 +54,8 @@ export default function Hero() {
         >
           <div className="rounded-[2rem] border border-white bg-white/90 p-8 shadow-2xl">
             <img
-              src="/sapsan-logo.png"
+              //   src="/sapsan-logo.png"
+              src={`${import.meta.env.BASE_URL}sapsan-logo.png`}
               alt="Sapsan Logo"
               className="mx-auto w-full max-w-xl"
             />
