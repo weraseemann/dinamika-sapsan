@@ -2,7 +2,7 @@ import { stats } from "../data/content";
 
 export default function Stats() {
   return (
-    <div className="mx-auto mt-8 grid max-w-[1200px] grid-cols-3 gap-3">
+    <div className="mx-auto mt-8 grid grid-cols-1 max-w-[1200px] md:grid-cols-3 gap-3">
       {stats.map((stat) => (
         <div
           key={stat.label}

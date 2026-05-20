@@ -13,14 +13,14 @@ export default function Services() {
         </h2>
       </div>
 
-      <div className="mt-10 grid w-full gap-5 md:grid-cols-3">
+      <div className="mt-10 grid w-full grid-cols-1 gap-5 md:grid-cols-3">
         {services.map((service) => {
           const Icon = service.icon;
 
           return (
             <article
               key={service.title}
-              className="rounded-[2rem] border border-slate-200 bg-white p-7 shadow-sm"
+              className="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm"
             >
               <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-[#08285f] text-[#ffc20e]">
                 <Icon size={26} />

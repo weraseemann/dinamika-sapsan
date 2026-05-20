@@ -5,13 +5,13 @@ export default function Consulting() {
 
   return (
     <div>
-      <p className="text-lg leading-8 text-slate-600">
+      <p className="space-y-5 text-base leading-7 text-slate-600 sm:text-lg sm:leading-8">
         Sapsan Transporte bietet professionelle Consulting - und
         Beratungsleistungen für Transport- und Logistiklösungen bis 3,5 Tonnen.
         Als zuverlässiger Partner für Privatpersonen und Unternehmen entwickeln
         wir flexible, effiziente und zielorientierte Konzepte für
         unterschiedlichste Transport- und Projektanforderungen.
-        <p className="mt-4 text-lg leading-8 text-slate-600">
+        <p className="mt-4 space-y-5 text-base leading-7 text-slate-600 sm:text-lg sm:leading-8">
           Ob kurzfristige Anfrage, besondere Route oder komplexe logistische
           Herausforderung - unser Team berät Sie kompetent, plant präzise und
           findet die passende Lösung für Ihr Vorhaben. Auch bei dringenden
@@ -21,12 +21,12 @@ export default function Consulting() {
         {expanded && (
           <>
             {" "}
-            <p className="mt-4 text-lg leading-8 text-slate-600">
+            <p className="mt-4 space-y-5 text-base leading-7 text-slate-600 sm:text-lg sm:leading-8">
               Wir sind darauf spezialisiert, innovative und kreative Lösungswege
               zu entwickeln und Ihnen individuelle Möglichkeiten der
               Zusammenarbeit anzubieten. Dabei stehen Flexibilität, Effizienz
               und eine praxisorientierte
-              <p className="mt-4 text-lg leading-8 text-slate-600">
+              <p className="mt-4 space-y-5 text-base leading-7 text-slate-600 sm:text-lg sm:leading-8">
                 Umsetzung stets im Mittelpunkt. Wenn Sie neue Wege suchen, um
                 Projekte erfolgreich und unkompliziert zu realisieren,
                 unterstützt Sie Sapsan mit maßgeschneiderten Konzepten und
