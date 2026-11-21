@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+import { HashRouter, Routes, Route, Navigate } from "react-router-dom";
 
 import Home from "./pages/Home";
 import Datenschutz from "./pages/Datenschutz";
@@ -6,7 +6,7 @@ import Impressum from "./pages/Impressum";
 
 export default function App() {
   return (
-    <BrowserRouter basename="/dinamika-sapsan">
+    <HashRouter>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/datenschutz" element={<Datenschutz />} />
@@ -14,6 +14,6 @@ export default function App() {
 
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
