@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+
 
 export default function Footer() {
   return (
@@ -13,21 +13,6 @@ export default function Footer() {
             Flexible Direkt- und Sonderfahrten bis 3,5 Tonnen.
           </p>
         </div>
-
-        {/*  <div className="flex flex-col gap-3 text-sm text-slate-600 lg:items-end">
-          <Link to="/impressum" className="transition hover:text-[#08285f]">
-            Impressum
-          </Link>
-
-          <Link to="/datenschutz" className="transition hover:text-[#08285f]">
-            Datenschutz
-          </Link>
-
-          <p className="pt-2 text-xs text-slate-400">
-            © {new Date().getFullYear()} Sapsan Transporte
-          </p>
-        </div> */}
-
         <div className="flex flex-col gap-3 text-sm text-slate-600 lg:items-end">
           <span
             className="cursor-not-allowed text-slate-400"
